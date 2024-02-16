@@ -26,7 +26,7 @@ for i in range (0,rulesLog+1):
 
 #Print welcome message
 print("This code will simulate rerolling for", itmax, "times for two dice algorithms.\n")
-print("Current rule 223 algorithm:")
+print("Current rule 172, Wild Experiment Card, algorithm:")
 print("  Roll a d10 3 times. Each itteration is a digit. Reroll 100's digit if no such rule\n")
 print("Suggested rule change")
 print("  Roll a d10 3 times. Each itteration is a digit. Reroll ALL digits if no such rule\n")
