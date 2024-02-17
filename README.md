@@ -28,7 +28,7 @@ Typical result from running the code:
       Rolls in range 100 - 199:      46.198% (115496 rolls)
       Rolls in range 200 - 223:      8.164% (20409 rolls)
     
-      Rerolls: 902730 ( avg. 3.611 rerolls per itteration)
+      Rerolls: 652570 ( avg. 2.610 rerolls per itteration)
     
     
     Suggested:
