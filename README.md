@@ -1,6 +1,7 @@
 This is a simple repo simulating Chemicard's rule 172 reroll mechanic using Python
 
 Typical result from running the code:
+    
     Roll results
     
     Current:
