@@ -128,7 +128,7 @@ for i in range (0, itmax):
     rollArrTrueRand[int((roll)/100)] = rollArrTrueRand[int((roll)/100)] + 1
     
     if progressBar > 0 :
-        rogress(67+int((i/itmax*100)/3))
+        progress(67+int((i/itmax*100)/3))
 
 
 
@@ -196,7 +196,7 @@ for i in range (0, len(rollArrRerollAll)):
         
     print("  Rolls in range %(lowrange)d - %(highrange)d:\t %(prob).3f%% (%(rolls)d rolls)" % {"lowrange":low, "highrange":high, "prob":prob, "rolls":rolls})
 
-print("\n  Rerolls: %(rerolls)d ( avg. %(avg).3f rerolls per itteration)\n" % { "rerolls":rerollsTop, "avg":rerollsTop/itmax })
+print("\n  Rerolls: %(rerolls)d ( avg. %(avg).3f rerolls per itteration)\n" % { "rerolls":rerollsAll, "avg":rerollsAll/itmax })
 
 #I know it's not TRUE true random, pedantic CS-nerd, but give me a break!
 print("\nTrue random created by random.randrange( 1,", numRules+1, ")\n")
