@@ -79,7 +79,6 @@ for i in range (0, itmax):
     
     #Calculate rolled value
     roll = 0
-    rerollsTop = rerollsTop - 1 #Compensate for inc in loop
     for j in range (0, rulesLog+1):
         roll = roll + rollArr[j] * 10**j
 
