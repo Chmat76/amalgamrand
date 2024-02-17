@@ -2,6 +2,23 @@ This is a simple repo simulating Chemicard's rule 172 reroll mechanic using Pyth
 
 Typical result from running the code:
     
+    This code will simulate rerolling for 250000 times for two dice algorithms.
+    
+    Current rule 172, Wild Experiment Card, algorithm:
+      Roll a d10 3 times. Each itteration is a digit. Reroll 100's digit if no such rule
+    
+    Suggested rule change
+      Roll a d10 3 times. Each itteration is a digit. Reroll ALL digits if no such rule
+    
+    
+    Expected results if true random:
+    
+      Rolls in range 1 - 99:         44.395% (110986 rolls)
+      Rolls in range 100 - 199:      44.843% (112107 rolls)
+      Rolls in range 200 - 223:      10.762% (26905 rolls)
+    
+    
+    Please wait for roll simulation to finish...
     Roll results
     
     Current:
